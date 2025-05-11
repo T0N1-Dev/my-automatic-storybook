@@ -56,6 +56,14 @@ export const CustomFontColor: Story = {
     }
   };
 
+export const CustomFontColorTest: Story = {
+  args: {
+    label: 'FontColorTest',
+    size: 'h1',
+    customColor: "#09f"
+  }
+};
+
 export const CustomBackgroundColor: Story = {
     args: {
       label: 'BackgroundColor',
